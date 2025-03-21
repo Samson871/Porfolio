@@ -37,7 +37,7 @@ function App() {
           Get in Touch
             </a>
             <a href="#projects" className="border border-slate-600 hover:border-blue-500 px-6 py-3 rounded-lg font-medium transition">
-          View Projects
+          View Project
             </a>
           </div>
         </div>
