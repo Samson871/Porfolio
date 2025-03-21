@@ -79,7 +79,7 @@ function App() {
               <h3 className="text-xl font-semibold mb-2">Node.js</h3>
               <p className="text-slate-300">Asynchronous programming, event-driven architecture, and server-side logic</p>
             </div>
-          </div>
+          </div> 
         </div>
       </section>
 
