@@ -1,6 +1,6 @@
 import React from 'react';
 import { Database, Server, Github as Git, Terminal, Code2, Coffee, Github, Linkedin, Mail, ExternalLink, Layers } from 'lucide-react';
-import profileImg from './Portfolio_pic.png';
+import profileImg from './Portfolio_pic1.png';
 
 function App() {
   return (
