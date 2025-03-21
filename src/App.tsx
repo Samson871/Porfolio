@@ -1,13 +1,13 @@
 import React from 'react';
 import { Database, Server, Github as Git, Terminal, Code2, Coffee, Github, Linkedin, Mail, ExternalLink, Layers } from 'lucide-react';
-import profileImg from './Portfolio_pic1.png';
+import profileImg from './Portfolio_pic.png';
 
 function App() {
   return (
     <div className="min-h-screen bg-slate-900 text-white">
       {/* Hero Section */}
       <header className="min-h-screen flex items-center justify-center relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-slate-900/20" />
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-400/20 to-slate-900/20" />
         <div className="container mx-auto px-6 py-24 relative z-10">
           <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="w-full md:w-2/6">
@@ -165,9 +165,9 @@ function App() {
           <h2 className="text-3xl font-bold mb-12 text-center">Get in Touch</h2>
           <div className="max-w-2xl mx-auto">
             <div className="flex justify-center space-x-8">
-              <SocialLink href="https://github.com" icon={<Github className="w-8 h-8" />} label="GitHub" />
-              <SocialLink href="https://linkedin.com" icon={<Linkedin className="w-8 h-8" />} label="LinkedIn" />
-              <SocialLink href="mailto:your.email@example.com" icon={<Mail className="w-8 h-8" />} label="Email" />
+              <SocialLink href="https://github.com/Samson871" icon={<Github className="w-8 h-8" />} label="GitHub" />
+              <SocialLink href="http://www.linkedin.com/in/samson-y" icon={<Linkedin className="w-8 h-8" />} label="LinkedIn" />
+              <SocialLink href="ysamson07@gmail.com" icon={<Mail className="w-8 h-8" />} label="Email" />
             </div>
           </div>
         </div>
